@@ -277,6 +277,7 @@ neverallow {
     -dumpstate
     -shell
     userdebug_or_eng(`-su')
+    -mediaserver
     -system_server
     -zygote
 } { file_type -system_file -exec_type }:file execute;
